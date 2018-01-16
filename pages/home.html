@@ -759,7 +759,7 @@ function refreshChart() {
 				times.push(time);				
 		}
 		//diffChart.data.labels = labels.reverse();
-		diffChart.labels = times.reverse();
+		//diffChart.data.labels = times.reverse();
 		diffChart.data.datasets[0].data = labels.reverse();
 		diffChart.data.datasets[1].data = diffs.reverse();
 		diffChart.data.datasets[2].data = txsnr.reverse();
